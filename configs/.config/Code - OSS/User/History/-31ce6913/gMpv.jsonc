@@ -1,0 +1,16 @@
+display:
+  separator: " "
+modules:
+  - type: logo
+    style: small
+  - type: os
+  - type: kernel
+  - type: shell
+  - type: wm
+  - type: de
+  - type: terminal
+  - type: uptime
+  - type: memory
+  - type: cpu
+  - type: gpu
+  - type: disk

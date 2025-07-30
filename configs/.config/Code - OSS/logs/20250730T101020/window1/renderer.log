@@ -1,0 +1,12 @@
+2025-07-30 10:10:20.673 [info] Started local extension host with pid 37573.
+2025-07-30 10:10:23.313 [info] [perf] Render performance baseline is 19ms
+2025-07-30 10:10:38.756 [error] [Extension Host] (node:37573) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-07-30 10:11:09.311 [error] Unknown (FileSystemError): Failed to move 'Previews' to the trash (Failed to move item to trash)
+    at r6.create (file:///usr/lib/code/out/main.js:35:29697)
+    at Zi (file:///usr/lib/code/out/main.js:35:26951)
+    at o4.z (file:///usr/lib/code/out/main.js:59:26610)
+2025-07-30 10:11:09.318 [error] Failed to move 'Previews' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'Previews' to the trash (Failed to move item to trash)
+    at r6.create (file:///usr/lib/code/out/main.js:35:29697)
+    at Zi (file:///usr/lib/code/out/main.js:35:26951)
+    at o4.z (file:///usr/lib/code/out/main.js:59:26610)

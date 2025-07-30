@@ -1,0 +1,5 @@
+catppuccin-cursors-mocha
+paru
+paru-debug
+spicetify-themes-git
+zen-browser-bin

@@ -1,0 +1,116 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: rgba(30, 30, 46, 0.0); /* 30% прозрачности */
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+#workspaces {
+  background-color: transparent;
+}
+
+#workspaces button {
+  all: initial;
+  /* Remove GTK theme values (waybar #1351) */
+  min-width: 0;
+  /* Fix weird spacing in materia (waybar #450) */
+  box-shadow: inset 0 -3px transparent;
+  /* Use box-shadow instead of border so the text isn't offset */
+  padding: 6px 18px;
+  margin: 6px 3px;
+  border-radius: 4px;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+}
+
+#workspaces button.active {
+  color: #1e1e2e;
+  background-color: #cdd6f4;
+}
+
+#workspaces button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: #1e1e2e;
+  background-color: #cdd6f4;
+}
+
+#workspaces button.urgent {
+  background-color: #f38ba8;
+}
+
+/* ===== Общий стиль для кнопок (VPN, Погода, Power, Spotify) ===== */
+#custom-spotify,
+#custom-weather,
+#custom-vpn,
+#custom-power {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 14px;
+    margin: 6px 4px;
+    border-radius: 8px;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ===== Spotify ===== */
+#custom-spotify {
+    background: #1db954;
+}
+#custom-spotify.playing {
+    background: #1ed760;
+}
+#custom-spotify.paused {
+    background: #158f3b;
+}
+#custom-spotify:hover {
+    background: #24e065;
+    color: #0f0f0f;
+}
+
+/* ===== VPN ===== */
+#custom-vpn.connected {
+    background: #4caf50; /* Зелёный */
+}
+#custom-vpn.connected:hover {
+    background: #66bb6a;
+}
+#custom-vpn.disconnected {
+    background: #e53935; /* Красный */
+}
+#custom-vpn.disconnected:hover {
+    background: #ef5350;
+}
+
+/* ===== Погода ===== */
+#custom-weather {
+    background: #2196f3; /* Синий */
+}
+#custom-weather:hover {
+    background: #42a5f5;
+}
+/* Цвета по температуре остаются */
+#custom-weather.cold { color: #bbdefb; }
+#custom-weather.normal { color: #c8e6c9; }
+#custom-weather.warm { color: #ffe0b2; }
+#custom-weather.hot { color: #ffcdd2; }
+
+/* ===== Power ===== */
+#custom-power {
+    background: #9c27b0; /* Фиолетовый */
+}
+#custom-power:hover {
+    background: #ab47bc;
+}

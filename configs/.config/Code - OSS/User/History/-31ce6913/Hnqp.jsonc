@@ -1,0 +1,18 @@
+{
+  "display": {
+    "separator": " ",
+    "color": "blue"
+  },
+  "modules": [
+    { "type": "logo", "style": "small" },
+    { "type": "os", "key": "[OS]", "keyColor": "#89b4fa" },
+    { "type": "kernel", "key": "[Kernel]", "keyColor": "#a6e3a1" },
+    { "type": "shell", "key": "[Shell]", "keyColor": "#fab387" },
+    { "type": "wm", "key": "[WM]", "keyColor": "#f38ba8" },
+    { "type": "de", "key": "[DE]", "keyColor": "#cba6f7" },
+    { "type": "terminal", "key": "[Terminal]", "keyColor": "#94e2d5" },
+    { "type": "memory", "key": "[RAM]", "keyColor": "#f9e2af" },
+    { "type": "cpu", "key": "[CPU]", "keyColor": "#eba0ac" },
+    { "type": "gpu", "key": "[GPU]", "keyColor": "#b4befe" }
+  ]
+}

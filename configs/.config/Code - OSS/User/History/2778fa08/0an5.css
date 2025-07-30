@@ -1,0 +1,154 @@
+/* === Общие настройки === */
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(30, 30, 46, 0.0); /* Полностью прозрачный фон */
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.5;
+}
+
+/* === Рабочие столы и логотип === */
+#workspaces {
+    background-color: transparent;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    padding: 6px 18px;
+    margin: 6px 3px;
+    border-radius: 4px;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+#workspaces button.active {
+    color: #1e1e2e;
+    background-color: #cdd6f4;
+}
+
+#workspaces button:hover {
+    color: #1e1e2e;
+    background-color: #cdd6f4;
+}
+
+#workspaces button.urgent {
+    background-color: #f38ba8;
+}
+
+#custom-logo {
+    padding: 6px 12px;
+    margin: 6px 4px;
+    font-size: 15px;
+    border-radius: 8px;
+    color: #1793d1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* === Общий стиль для всех кнопочных модулей === */
+#custom-spotify,
+#custom-weather,
+#custom-vpn,
+#custom-power,
+#memory,
+#battery,
+#wireplumber,
+#network,
+#tray {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 14px;
+    margin: 6px 4px;
+    border-radius: 8px;
+    color: #ffffff;
+    transition: background 0.3s ease, color 0.3s ease;
+    background: rgba(0, 0, 0, 0.3); /* Полупрозрачный фон */
+}
+
+/* Hover для всех */
+#custom-spotify:hover,
+#custom-weather:hover,
+#custom-vpn:hover,
+#custom-power:hover,
+#memory:hover,
+#battery:hover,
+#wireplumber:hover,
+#network:hover,
+#tray:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* === Spotify === */
+#custom-spotify.playing { background: #1ed760; }
+#custom-spotify.paused { background: #158f3b; }
+
+/* === VPN === */
+#custom-vpn.connected { background: #4caf50; }
+#custom-vpn.disconnected { background: #e53935; }
+
+/* === Погода === */
+#custom-weather {
+    background: rgba(0, 0, 0, 0.3);
+}
+#custom-weather.cold { color: #00bfff; }
+#custom-weather.normal { color: #00ff7f; }
+#custom-weather.warm { color: #ffb84d; }
+#custom-weather.hot { color: #ff4d4d; }
+
+/* === Громкость (wireplumber) === */
+#wireplumber {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* === Трей === */
+#tray {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 6px 14px;
+    margin: 6px 4px;
+    border-radius: 8px;
+}
+
+/* === Часы === */
+#clock {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 6px 16px;
+    margin: 6px 4px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.0);
+    color: #ff6ec4; /* начальный цвет */
+    transition: color 1s ease, text-shadow 0.3s ease;
+}
+
+#clock:hover {
+    color: #4adede;
+    text-shadow: 0 0 8px rgba(255, 110, 196, 0.8),
+                 0 0 16px rgba(120, 115, 245, 0.7),
+                 0 0 24px rgba(74, 222, 222, 0.6);
+}
+
+
+
+/* === Tooltip === */
+tooltip {
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #131822;
+}
+
+tooltip label {
+    padding: 5px;
+    background-color: #131822;
+}

@@ -1,0 +1,4 @@
+modules:
+  - type: logo
+  - type: os
+  - type: cpu

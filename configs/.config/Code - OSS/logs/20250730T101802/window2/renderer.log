@@ -1,0 +1,5 @@
+2025-07-30 10:18:39.476 [info] Started local extension host with pid 4504.
+2025-07-30 10:18:39.516 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-07-30 10:18:42.076 [info] [perf] Render performance baseline is 19ms
+2025-07-30 10:23:55.642 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /usr/share/sddm/themes)
+2025-07-30 10:23:55.665 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

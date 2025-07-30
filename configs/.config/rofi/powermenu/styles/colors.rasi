@@ -1,0 +1,48 @@
+* {
+  background:  #2E3440;
+  background-alt: #3B4252;
+  foreground: #D8DEE9;
+  selected: #88C0D0;
+  active: #5E81AC;
+  urgent: #BF616A;
+}
+
+window {
+  background-color: var(background);
+  border: 2px;
+  border-color: var(selected);
+}
+
+mainbox {
+  border: 2px solid var(selected);
+}
+
+inputbar {
+  text-color: var(foreground);
+  border-color: var(selected);
+}
+
+listview {
+  border-color: var(selected);
+  text-color: var(foreground);
+}
+
+element selected normal {
+  background-color: var(selected);
+  text-color: var(background);
+}
+
+element {
+  text-color: var(foreground);
+  background-color: var(background-alt);
+  border-color: var(selected);
+}
+
+message {
+  background-color: var(background-alt);
+  text-color: var(foreground);
+}
+
+textbox {
+  placeholder-color: var(foreground);
+}

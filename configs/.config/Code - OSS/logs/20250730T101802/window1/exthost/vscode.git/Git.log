@@ -1,0 +1,34 @@
+2025-07-30 10:18:03.914 [info] [main] Log level: Info
+2025-07-30 10:18:03.914 [info] [main] Validating found git in: "git"
+2025-07-30 10:18:03.915 [info] [main] Using git "2.50.1" from "git"
+2025-07-30 10:18:03.915 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-30 10:18:03.915 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-30 10:18:03.915 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-07-30 10:18:03.915 [info] [Model][openRepository] Opened repository (path): /usr/share/sddm/themes/simple-sddm
+2025-07-30 10:18:03.915 [info] [Model][openRepository] Opened repository (real path): /usr/share/sddm/themes/simple-sddm
+2025-07-30 10:18:03.915 [info] > git config --get commit.template [3ms]
+2025-07-30 10:18:03.915 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-30 10:18:03.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-30 10:18:03.915 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/simple-sddm/.git/refs/remotes/origin/main'
+2025-07-30 10:18:03.915 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-30 10:18:03.915 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-07-30 10:18:03.915 [info] > git rev-parse --show-toplevel [8ms]
+2025-07-30 10:18:03.915 [info] > git status -z -uall [12ms]
+2025-07-30 10:18:03.915 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-07-30 10:18:03.915 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-30 10:18:03.915 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-30 10:18:03.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-07-30 10:18:03.941 [info] > git config --get --local branch.main.vscode-merge-base [17ms]
+2025-07-30 10:18:03.945 [info] > git config --get commit.template [27ms]
+2025-07-30 10:18:03.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-07-30 10:18:03.963 [info] > git merge-base refs/heads/main refs/remotes/origin/main [6ms]
+2025-07-30 10:18:03.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-07-30 10:18:03.969 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/simple-sddm/.git/refs/remotes/origin/main'
+2025-07-30 10:18:03.969 [info] > git diff --name-status -z --diff-filter=ADMR afd038e57f8c678a14adf3fd9407a44dde5a660b...refs/remotes/origin/main [3ms]
+2025-07-30 10:18:03.970 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-07-30 10:18:03.976 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-30 10:18:03.979 [info] > git status -z -uall [7ms]
+2025-07-30 10:18:04.307 [info] > git show --textconv :Components/LoginForm.qml [8ms]
+2025-07-30 10:18:04.308 [info] > git ls-files --stage -- Components/LoginForm.qml [2ms]
+2025-07-30 10:18:04.316 [info] > git cat-file -s 70212564faadec542e22792d65fc6aad75e6003c [2ms]
+2025-07-30 10:18:04.435 [info] > git check-ignore -v -z --stdin [3ms]

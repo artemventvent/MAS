@@ -1,0 +1,96 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "3f93bb74b423905efed7d120008a9b9a969c001a329c47ab4369b808fe4d9ba1",
+    "telemetry.devDeviceId": "f00d5c38-b89f-4207-b64c-8f25da16d77f",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///usr/share/sddm/themes"
+            },
+            {
+                "folderUri": "file:///home/user/my-arch-setup"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/user/.config": "__default__profile__",
+            "file:///home/user/Downloads/%D0%9C%D0%BE%D0%B9%20%D1%81%D0%B0%D0%B9%D1%82%20%28%D0%BE%D1%87%D0%B5%D0%BD%D1%8C%20%D0%BA%D1%80%D1%83%D1%82%D0%BE%D0%B9%28%D0%BD%D0%B5%20%D1%81%D0%BA%D0%B0%D0%BC%29%29": "__default__profile__",
+            "file:///usr/share/sddm/themes/simple-sddm": "__default__profile__",
+            "file:///usr/share/sddm/themes": "__default__profile__",
+            "file:///home/user/my-arch-setup": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#002b36",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#002b36",
+            "editorBackground": "#002b36",
+            "titleBarBackground": "#002c39",
+            "activityBarBackground": "#003847",
+            "sideBarBackground": "#00212b",
+            "statusBarBackground": "#00212b",
+            "statusBarNoFolderBackground": "#00212b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 192,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 192,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "0082af8b6f50146cc0ac73326d2c4f7c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dd7f74aae4604320e427eca575325737": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "cf2283ec6dafc9448ccf94ddcf09f9a2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "af7a2de7b7bcff5763f6f24c9c5fbbd8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "187e7c8feff4236b3168742871bdfe45": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/user/my-arch-setup",
+            "backupPath": "/home/user/.config/Code - OSS/Backups/91f2e7e1e81e6cca9e17f3e3be3e2f7b",
+            "uiState": {
+                "mode": 1,
+                "x": 1930,
+                "y": 55,
+                "width": 1614,
+                "height": 1375
+            }
+        },
+        "openedWindows": []
+    }
+}

@@ -1,0 +1,66 @@
+2025-07-30 10:18:40.078 [info] [main] Log level: Info
+2025-07-30 10:18:40.078 [info] [main] Validating found git in: "git"
+2025-07-30 10:18:40.078 [info] [main] Using git "2.50.1" from "git"
+2025-07-30 10:18:40.078 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-30 10:18:40.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [0ms]
+2025-07-30 10:18:40.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-30 10:18:40.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-30 10:18:40.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [3ms]
+2025-07-30 10:18:40.078 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-07-30 10:18:40.078 [info] [Model][openRepository] Opened repository (path): /usr/share/sddm/themes/simple-sddm
+2025-07-30 10:18:40.078 [info] [Model][openRepository] Opened repository (real path): /usr/share/sddm/themes/simple-sddm
+2025-07-30 10:18:40.078 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-30 10:18:40.078 [info] > git config --get commit.template [7ms]
+2025-07-30 10:18:40.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-07-30 10:18:40.078 [info] > git rev-parse --show-toplevel [11ms]
+2025-07-30 10:18:40.078 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:40.078 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/simple-sddm/.git/refs/remotes/origin/main'
+2025-07-30 10:18:40.078 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-07-30 10:18:40.089 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-07-30 10:18:40.092 [info] > git status -z -uall [9ms]
+2025-07-30 10:18:40.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-30 10:18:40.149 [info] > git config --get --local branch.main.vscode-merge-base [30ms]
+2025-07-30 10:18:40.152 [info] > git config --get commit.template [38ms]
+2025-07-30 10:18:40.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [17ms]
+2025-07-30 10:18:40.178 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-07-30 10:18:40.182 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-30 10:18:40.185 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/simple-sddm/.git/refs/remotes/origin/main'
+2025-07-30 10:18:40.185 [info] > git diff --name-status -z --diff-filter=ADMR afd038e57f8c678a14adf3fd9407a44dde5a660b...refs/remotes/origin/main [4ms]
+2025-07-30 10:18:40.186 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-07-30 10:18:40.194 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-30 10:18:40.196 [info] > git status -z -uall [7ms]
+2025-07-30 10:18:40.562 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-30 10:18:41.966 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-30 10:18:41.966 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:18:51.914 [info] > git check-ignore -v -z --stdin [1ms]
+2025-07-30 10:19:00.434 [info] > git show --textconv :theme.conf [4ms]
+2025-07-30 10:19:00.435 [info] > git ls-files --stage -- theme.conf [1ms]
+2025-07-30 10:19:00.438 [info] > git cat-file -s 5ed0f29617135bf4cb480a5b4a15a2167c828a41 [0ms]
+2025-07-30 10:19:01.409 [info] > git blame --root --incremental afd038e57f8c678a14adf3fd9407a44dde5a660b -- theme.conf [1ms]
+2025-07-30 10:19:06.847 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-30 10:19:06.847 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:19:26.649 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-30 10:19:26.649 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:19:29.345 [info] > git rev-parse --show-toplevel [1ms]
+2025-07-30 10:19:29.345 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-07-30 10:19:41.585 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-30 10:19:42.757 [info] > git check-ignore -v -z --stdin [1ms]
+2025-07-30 10:19:50.928 [info] > git check-ignore -v -z --stdin [3ms]
+2025-07-30 10:19:54.100 [info] > git show --textconv :Assets/Hibernate.svgz [9ms]
+2025-07-30 10:19:54.102 [info] > git ls-files --stage -- Assets/Hibernate.svgz [3ms]
+2025-07-30 10:19:54.111 [info] > git cat-file -s c6aab4d04fc2af6b1aeabfe1963e67d9fb0cc408 [2ms]
+2025-07-30 10:19:59.330 [info] > git show --textconv :metadata.desktop [8ms]
+2025-07-30 10:19:59.331 [info] > git ls-files --stage -- metadata.desktop [2ms]
+2025-07-30 10:19:59.340 [info] > git cat-file -s ca1943403c166ef5f6e5b7a8f92e4fac57dfcb4a [2ms]
+2025-07-30 10:20:20.836 [info] > git show --textconv :Main.qml [7ms]
+2025-07-30 10:20:20.837 [info] > git ls-files --stage -- Main.qml [2ms]
+2025-07-30 10:20:20.842 [info] > git cat-file -s 06a132f6bc6775b296d089b7f19bb70d1b090ec8 [1ms]
+2025-07-30 10:20:39.619 [info] > git blame --root --incremental afd038e57f8c678a14adf3fd9407a44dde5a660b -- Main.qml [1ms]
+2025-07-30 10:21:45.178 [info] > git show --textconv :Components/Clock.qml [3ms]
+2025-07-30 10:21:45.179 [info] > git ls-files --stage -- Components/Clock.qml [1ms]
+2025-07-30 10:21:45.184 [info] > git cat-file -s e809efc10596d5342f89f540248c8055e0f94b8c [1ms]

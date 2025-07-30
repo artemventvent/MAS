@@ -1,0 +1,20 @@
+{
+  "logo": {
+    "type": "small"
+  },
+  "colors": [ "cyan" ],
+  "display": {
+    "separator": ""
+  },
+  "modules": [
+    { "type": "os", "key": "OS:", "keyColor": "cyan" },
+    { "type": "kernel", "key": "Kernel:", "keyColor": "cyan" },
+    { "type": "uptime", "key": "Uptime:", "keyColor": "cyan" },
+    { "type": "shell", "key": "Shell:", "keyColor": "cyan" },
+    { "type": "wm", "key": "WM:", "keyColor": "cyan" },
+    { "type": "terminal", "key": "Terminal:", "keyColor": "cyan" },
+    { "type": "memory", "key": "RAM:", "keyColor": "cyan" },
+    { "type": "cpu", "key": "CPU:", "keyColor": "cyan" },
+    { "type": "gpu", "key": "GPU:", "keyColor": "cyan" }
+  ]
+}

@@ -1,0 +1,2 @@
+2025-07-30 10:23:55.643 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /usr/share/sddm/themes)
+2025-07-30 10:23:55.665 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

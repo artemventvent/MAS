@@ -1,0 +1,52 @@
+2025-07-30 10:24:27.541 [info] [main] Log level: Info
+2025-07-30 10:24:27.541 [info] [main] Validating found git in: "git"
+2025-07-30 10:24:27.541 [info] [main] Using git "2.50.1" from "git"
+2025-07-30 10:24:27.541 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-30 10:24:27.541 [info] > git rev-parse --show-toplevel [7ms]
+2025-07-30 10:24:27.541 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-07-30 10:24:27.541 [info] [Model][openRepository] Opened repository (path): /usr/share/sddm/themes
+2025-07-30 10:24:27.541 [info] [Model][openRepository] Opened repository (real path): /usr/share/sddm/themes
+2025-07-30 10:24:27.541 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-30 10:24:27.541 [info] > git config --get commit.template [4ms]
+2025-07-30 10:24:27.541 [info] > git rev-parse --show-toplevel [16ms]
+2025-07-30 10:24:27.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-07-30 10:24:27.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/.git/refs/remotes/origin/main'
+2025-07-30 10:24:27.543 [info] > git rev-parse --show-toplevel [17ms]
+2025-07-30 10:24:27.548 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-07-30 10:24:27.554 [info] > git rev-parse --show-toplevel [6ms]
+2025-07-30 10:24:27.555 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-30 10:24:27.555 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-30 10:24:27.562 [info] > git status -z -uall [11ms]
+2025-07-30 10:24:27.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-07-30 10:24:27.583 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-07-30 10:24:27.583 [warning] [Git][config] git config failed: Failed to execute git
+2025-07-30 10:24:27.587 [info] > git config --get commit.template [11ms]
+2025-07-30 10:24:27.591 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2025-07-30 10:24:27.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-07-30 10:24:27.595 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/.git/refs/remotes/origin/main'
+2025-07-30 10:24:27.596 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-07-30 10:24:27.598 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-07-30 10:24:27.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-07-30 10:24:27.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-30 10:24:27.606 [info] > git config --add --local branch.main.vscode-merge-base origin/main [1ms]
+2025-07-30 10:24:27.610 [info] > git status -z -uall [10ms] (cancelled)
+2025-07-30 10:24:27.611 [info] > git config --get commit.template [1ms]
+2025-07-30 10:24:27.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-07-30 10:24:27.633 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/.git/refs/remotes/origin/main'
+2025-07-30 10:24:27.634 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-07-30 10:24:27.640 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-07-30 10:24:27.647 [info] > git status -z -uall [10ms]
+2025-07-30 10:24:27.656 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-07-30 10:24:27.660 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-07-30 10:24:27.663 [info] > git diff --name-status -z --diff-filter=ADMR afd038e57f8c678a14adf3fd9407a44dde5a660b...refs/remotes/origin/main [4ms]
+2025-07-30 10:24:27.664 [info] > git diff --name-status -z --diff-filter=ADMR afd038e57f8c678a14adf3fd9407a44dde5a660b...refs/remotes/origin/main [1ms]
+2025-07-30 10:24:27.999 [info] > git check-ignore -v -z --stdin [2ms]
+2025-07-30 10:24:28.701 [info] > git config --get commit.template [8ms]
+2025-07-30 10:24:28.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-07-30 10:24:28.710 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/usr/share/sddm/themes/.git/refs/remotes/origin/main'
+2025-07-30 10:24:28.712 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-07-30 10:24:28.728 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-07-30 10:24:28.741 [info] > git status -z -uall [23ms]
+2025-07-30 10:24:31.257 [info] > git show --textconv :theme.conf [5ms]
+2025-07-30 10:24:31.257 [info] > git ls-files --stage -- theme.conf [1ms]
+2025-07-30 10:24:31.261 [info] > git cat-file -s 5ed0f29617135bf4cb480a5b4a15a2167c828a41 [1ms]

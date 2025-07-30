@@ -1,0 +1,9 @@
+2025-07-30 10:06:32.326 [info] Extension host with pid 33896 started
+2025-07-30 10:06:32.326 [info] Skipping acquiring lock for /home/user/.config/Code - OSS/User/workspaceStorage/0082af8b6f50146cc0ac73326d2c4f7c.
+2025-07-30 10:06:32.514 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-30 10:06:32.609 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-30 10:06:32.619 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-30 10:06:32.656 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-30 10:06:32.762 [info] Eager extensions activated
+2025-07-30 10:06:32.767 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-30 10:06:32.769 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

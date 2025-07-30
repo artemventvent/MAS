@@ -1,0 +1,36 @@
+display:
+  separator: " "
+modules:
+  - type: logo
+    style: small
+    color: "6"    # Синий (Arch)
+  - type: os
+    key: "󰣇 OS"
+    keyColor: "4"
+  - type: kernel
+    key: " Kernel"
+    keyColor: "6"
+  - type: uptime
+    key: " Uptime"
+    keyColor: "3"
+  - type: shell
+    key: " Shell"
+    keyColor: "2"
+  - type: wm
+    key: "󱂬 WM"
+    keyColor: "5"
+  - type: terminal
+    key: " Terminal"
+    keyColor: "4"
+  - type: memory
+    key: "󰍛 RAM"
+    keyColor: "6"
+  - type: cpu
+    key: " CPU"
+    keyColor: "1"
+  - type: gpu
+    key: " GPU"
+    keyColor: "2"
+  - type: disk
+    key: " Disk"
+    keyColor: "3"

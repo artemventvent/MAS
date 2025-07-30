@@ -1,0 +1,64 @@
+/* ===== Общий стиль для кнопок (VPN, Погода, Power, Spotify) ===== */
+#custom-spotify,
+#custom-weather,
+#custom-vpn,
+#custom-power {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 14px;
+    margin: 6px 4px;
+    border-radius: 8px;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ===== Spotify ===== */
+#custom-spotify {
+    background: #1db954;
+}
+#custom-spotify.playing {
+    background: #1ed760;
+}
+#custom-spotify.paused {
+    background: #158f3b;
+}
+#custom-spotify:hover {
+    background: #24e065;
+    color: #0f0f0f;
+}
+
+/* ===== VPN ===== */
+#custom-vpn.connected {
+    background: #4caf50; /* Зелёный */
+}
+#custom-vpn.connected:hover {
+    background: #66bb6a;
+}
+#custom-vpn.disconnected {
+    background: #e53935; /* Красный */
+}
+#custom-vpn.disconnected:hover {
+    background: #ef5350;
+}
+
+/* ===== Погода ===== */
+#custom-weather {
+    background: #2196f3; /* Синий */
+}
+#custom-weather:hover {
+    background: #42a5f5;
+}
+/* Цвета по температуре остаются */
+#custom-weather.cold { color: #bbdefb; }
+#custom-weather.normal { color: #c8e6c9; }
+#custom-weather.warm { color: #ffe0b2; }
+#custom-weather.hot { color: #ffcdd2; }
+
+/* ===== Power ===== */
+#custom-power {
+    background: #9c27b0; /* Фиолетовый */
+}
+#custom-power:hover {
+    background: #ab47bc;
+}

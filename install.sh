@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 # Путь к скрипту
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -44,11 +43,20 @@ install_with_progress() {
     local command=$2
     local name=$3
 
-    total=$(wc -l < "$list_file")
+    if [[ ! -f "$list_file" ]]; then
+        error "Файл $list_file не найден"
+    fi
+
+    info "DEBUG: Начинаю установку пакетов из $list_file"
+
+    total=$(grep -cvE '^\s*($|#)' "$list_file")
     count=0
 
     while IFS= read -r pkg || [[ -n "$pkg" ]]; do
+        [[ -z "$pkg" || "$pkg" =~ ^# ]] && continue
+
         ((count++))
+        info "DEBUG: Устанавливаю $pkg ($count/$total)"
         gum spin --spinner dot --title "[$count/$total] $name: $pkg" -- $command "$pkg" \
             && gum style --foreground 40 "$pkg ✔" \
             || gum style --foreground 196 "$pkg ✘"
@@ -69,7 +77,6 @@ main() {
 
     info "Обновление системы"
     sudo pacman -Syu --noconfirm
-
     info "Установка пакетов из pacman.txt"
     install_with_progress "$SCRIPT_DIR/pacman.txt" "sudo pacman -S --noconfirm --needed" "Pacman"
 

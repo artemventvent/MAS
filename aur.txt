@@ -3,3 +3,5 @@ paru
 paru-debug
 spicetify-themes-git
 zen-browser-bin
+spicetify-cli
+spotify-adblock

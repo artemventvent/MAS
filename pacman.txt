@@ -62,8 +62,6 @@ sddm
 slurp
 smartmontools
 sof-firmware
-spicetify-cli
-spotify-adblock
 telegram-desktop
 ttf-dejavu
 ttf-jetbrains-mono
